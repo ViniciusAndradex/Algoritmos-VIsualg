@@ -1,2 +1,3 @@
 # Algoritmos VIsualg
- Anataçoes e atividades que forma feitas do meu primeiro curso de logica de programaçao. Curso Algoritmos (Curso em video)
+ Resumos e atividades do Curso de Algoritmos do Curso em Video. 
+ OBS: Este foi meu primeiro contato com a programaçao, possivelmente haveram muitos erros, entao analise direito e bons estudos.
