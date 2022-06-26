@@ -3,10 +3,11 @@ Algoritmo "Hello World!!"
 //  
 // Autor: Vinicius Andrade
 Var
-
+   Msg: Caractere
 
 Inicio
-      Escreval("Hello World!!, I'm Vinicius Andrade!!")
+      msg <- "Olá, Mundo!!"
+      Escreval(msg)
       Escreva("Me livrei da maldição!!")
 
 Fimalgoritmo
