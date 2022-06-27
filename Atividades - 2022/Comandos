@@ -1,0 +1,32 @@
+Visualg - Comandos :
+
+Comandos:
+
+Escreva("")
+Escreval("")
+Leia(Var) : Comando de entrada.
+Var:
+
+identificador: tipo
+
+tipos: Inteiro, Real, Caractere (STRING), Logico
+
+msg <-(recebe)
+
+Funções:
+Abs
+Exp(a,b)
+RaizQ
+Pi
+Sen: Rad
+Cos: Rad
+Tan: Rad
+GrapRad
+
+Relacionais:
+> >= , < <= e <> 
+Logicos:
+E, OU, NÃO
+
+Formatação:
+var:numero total de caracteres: numero apos a ,
