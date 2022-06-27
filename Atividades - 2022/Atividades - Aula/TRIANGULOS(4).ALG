@@ -1,4 +1,4 @@
-Algoritmo "Triangulos(3)"
+Algoritmo "Triangulos(4)"
 // Lógica de Programação
 // Gustavo Guanabara 
 // Autor(a)    : Vinicius Andrade
