@@ -30,3 +30,33 @@ E, OU, NÃO
 
 Formatação:
 var:numero total de caracteres: numero apos a ,
+
+Estrutura condicional:
+
+Se (condição) entao
+senao
+FimSe
+
+e
+Aninhado: 
+
+Se (condição) entao
+senao
+	Se (condição) entao
+	senao
+	FimSe
+FimSe
+
+Switch: 
+
+Não pode se testar faixas de valores e normalmente inteiros no visualg.
+
+Escolha (var)
+	caso (valor)
+		bloco
+	caso (valor), (valor), (valor)
+		bloco
+	OutroCaso
+		bloco
+FimEscolha
+
