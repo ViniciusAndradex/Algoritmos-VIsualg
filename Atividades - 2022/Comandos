@@ -60,3 +60,15 @@ Escolha (var)
 		bloco
 FimEscolha
 
+Estrutura de repetição
+
+Enquanto (mao <= 5 ) faça
+	mao <- mao + 1
+FimEnquanto
+
+Repita
+	bloco
+ate (exp)
+
+LimpaTela
+
