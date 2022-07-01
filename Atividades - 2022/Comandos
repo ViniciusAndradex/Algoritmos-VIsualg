@@ -72,3 +72,8 @@ ate (exp)
 
 LimpaTela
 
+Para  var <- inicio ate fim passo salto faça
+	Bloco
+FimPara
+
+Exemplo: Para C <- 1 ate passo 1 faça | FimPara
