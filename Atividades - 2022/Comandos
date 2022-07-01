@@ -77,3 +77,21 @@ Para  var <- inicio ate fim passo salto faça
 FimPara
 
 Exemplo: Para C <- 1 ate passo 1 faça | FimPara
+
+Procedimentos:
+
+Rotinas :
+
+Tem como função agilizar a digitação do meu código.
+Procedimento NOME()
+Inicio
+	BLoco
+FimProcedimento
+
+Passagem de parâmetro: Por valor, copia o valor para a variável local.
+Procedimento SOma(A,B: Inteiro) <- na linguagem não permite o nome de var igual ao do global.
+
+Passagem por  Parâmetro, envia o endereço da variável e portanto uma modificação feita no escopo do procedimento muda na variável global também: Soma(var(parâmetro) A,B: Inteiro)
+
+Escopo Local - Só funciona dentro de onde foram criadas e deixa de existir em outros locais
+Escopo Global - Todos os locais do meu código é possível ver as variáveis. 
