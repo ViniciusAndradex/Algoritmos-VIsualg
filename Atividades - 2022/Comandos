@@ -95,3 +95,65 @@ Passagem por  Parâmetro, envia o endereço da variável e portanto uma modifica
 
 Escopo Local - Só funciona dentro de onde foram criadas e deixa de existir em outros locais
 Escopo Global - Todos os locais do meu código é possível ver as variáveis. 
+
+Função (Retornam valores):
+O  ideal é que não se escreva nada na função e sim retorne um valor para o programa principal.
+
+Funcao Soma(A, B: Inteiro) : Inteiro (tipo de retorno)
+var
+
+Inicio
+	
+	Retorne
+FimFuncao
+
+Funções Prontas:
+Compr(var) -> tamanho da palavra
+Copia(Var, 6,2) -> Copie apartir da 6 de 2 em 2
+Maiusc(var)
+Minusc(var) 
+Pos("Video", Var) -> Procura o inicio da palvra a primeira letra caso exista.
+Asc("f"): Retorna o valor de ASCII.
+Carac(codigo) -> Retorna a letra.
+
+Vetores:
+
+Declaração:
+n: vetor[tam..total] de inteiro
+
+atribuir:
+n[posição] <- 4
+
+Ordenação:
+
+Para i <- 1 ate Compr(vet - 1) faça
+    Para j <- i+1 ate Compr(vet) faça
+    	Se (vet[i] > vet[j]) entao
+    	   aux <- vet[i]
+    	   vet[i] <- vet[j]
+    	   vet[j] <- aux
+    	FimSe
+    FimPara
+FimPara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
