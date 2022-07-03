@@ -1,4 +1,4 @@
-Algoritmo "ex 72"
+Algoritmo "ex 73"
 // Autor(a)    : Vinicius Andrade
 // Data atual  : 3/7/2022
 Var
@@ -14,9 +14,9 @@ FimProcedimento
 Funcao Number(var b : Inteiro): Inteiro
 inicio
       Se (b = 0) entao
-         b <- 5
+         b <- 9
       senao
-           b <- b + 5
+           b <- b - 1
       FimSe
       Retorne b
 FimFuncao
