@@ -3,7 +3,7 @@ Algoritmo "ex 75"
 // Data atual  : 3/7/2022
 Var
    vet : vetor [0..15] de Inteiro
-   cont, num : Inteiro
+   cont, v1, v2, v3 : Inteiro
 
 Procedimento layoutEscreva(var a : Inteiro)
 
@@ -11,17 +11,14 @@ Inicio
       Escreva("| ",a," |")
 FimProcedimento
 
-Funcao fibonacci(var b : Inteiro): Inteiro
-var
-   aux, t1 : Inteiro
-inicio
-
-      Retorne b
-FimFuncao
-
 Inicio
+      v1 <- 1
+      v2 <- 0
       Para cont <- 0 ate 15 faça
-           vet[cont] <- fibonacci(num)
+           v3 <- v1 + v2
+           v1 <- v2
+           v2 <- v3
+           vet[cont] <- v3
            layoutEscreva(vet[cont])
       FimPara
 Fimalgoritmo
