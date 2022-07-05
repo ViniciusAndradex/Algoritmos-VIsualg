@@ -2,7 +2,7 @@ Algoritmo "ex 95"
 // Autor(a)    : Vinicius Andrade
 // Data atual  : 4/7/2022
 Var
-   a, b  : Real
+   a, b  : Inteiro
 
    Funcao Somador(a, b : Inteiro) : Inteiro
           retorne a + b
