@@ -2,16 +2,16 @@ Algoritmo "ex 95"
 // Autor(a)    : Vinicius Andrade
 // Data atual  : 4/7/2022
 Var
-   a, b  : Inteiro
+   n1, n2  : Real
 
-   Funcao Somador(a, b : Inteiro) : Inteiro
-          retorne a + b
+   Funcao Media(a, b : Real) : Real
+          retorne (a + b) / 2.0
    FimFuncao
 Inicio
-      Escreva("Digite um número: ")
-      Leia(a)
-      Escreva("Digite um número: ")
-      Leia(b)
+      Escreva("N1: ")
+      Leia(n1)
+      Escreva("N2: ")
+      Leia(n2)
       LimpaTela
-      EscrevaL(a," + ", b," = ", Somador(a,b) )
+      EscrevaL("Média = ", Media(n1,n2))
 Fimalgoritmo
