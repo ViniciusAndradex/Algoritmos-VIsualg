@@ -2,23 +2,23 @@ Algoritmo "ex 97"
 // Autor(a)    : Vinicius Andrade
 // Data atual  : 4/7/2022
 Var
-   a, b, c  : Inteiro
+   a, b, c, m  : Inteiro
 
    Funcao Maior(d, f, g : Inteiro) : Inteiro
    Var
-      maior : Inteiro
+      m : Inteiro
    Inicio
          se (d >= f) entao
-            maior <- d
+            m <- d
          senao
-              maior <- f
+              m <- f
          fimse
 
-         se (maior <= g) entao
-            maior <- g
+         se (m <= g) entao
+            m <- g
          fimse
          
-         retorne maior
+         retorne m
    FimFuncao
 Inicio
       Escreva("Digite um número: ")
@@ -28,6 +28,6 @@ Inicio
       Escreva("Digite um número: ")
       Leia(c)
       LimpaTela
-
-      EscrevaL("Maior: ", Maior(a, b, c))
+      m <- Maior(a,b,c)
+      EscrevaL("Maior: ", m)
 Fimalgoritmo
